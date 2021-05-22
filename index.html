@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-commerce</title>
+  <!-- aca linkeo a font-awesome -->
+  <script src="https://kit.fontawesome.com/9c540da863.js" crossorigin="anonymous"></script>
+<!-- aca linkeo a google fonts para buttons y navbar -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<!-- aca linkeo a google fonts para titles -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- aca linkeo a css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mobile.css">
+  <link rel="stylesheet" href="./assets/css/hamburguer-menu.css">
+</head>
+
+<body>
+
+  <head>
+    <!-- nav principal -->
+    <nav>
+      <img
+        src="https://png.pngtree.com/template/20190904/ourmid/pngtree-k-letter-and-kiosk-logo-design-image_300481.jpg"
+        alt="logo" id="logo" class="logo" />
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#products"> Productos</a></li>
+            <li><a href="#"> Sobre Nosotros</a></li>
+            <li><a href="#"> Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul id="shop">
+        <li><a href="./carrito.html" target="_blank" class="shop-icon"></a><i class="fas fa-shopping-cart fa-3x icon-color"></i></li>
+            
+        <li>
+          <div id="circle" class="circle"></div>
+        </li>
+      </ul>
+    </nav>
+    
+    <section class="search">
+      <input type="search" placeholder="Buscar productos" class="search-input"><i class="fas fa-search fa-2x"></i>
+      
+    </section>
+
+    <!-- Banner estatico o Carroussel -->
+    <section class="banner">
+      <div>
+        <!-- <h1>TENTATE!!</h1> -->
+        <img src="/assets/images/Lays-800x400.jpeg" alt="Golosinas" class="img-banner" />
+      </div>
+    </section>
+  </head>
+
+  <main role="main">
+
+    <section class="products" id="products">
+      <h2> Algunos de Nuestros Productos</h2>
+      <div id="allProducts" class="allProducts">
+        <div class="alfajor">
+          <button id="alfajor">Alfajores</button>
+        </div>
+        <div class="chupetin">
+          <button id="chupetin">Chupetines</button>
+        </div>
+        <div class="galletita">
+          <button id="galletita">Galletitas</button>
+        </div>
+        <div class="chocolate">
+          <button id="chocolate">Chocolates</button>
+        </div>
+        <div class="chicle">
+          <button id="chicle">Chicles</button>
+        </div>
+        <div class="snack">
+          <button id="snack">Snacks</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="productsContainer">
+      <div class="container" id="container">
+        <!-- <img src="https://www.zanettigolosinas.com.ar/wp-content/uploads/2021/04/77905741.jpg" alt="" id="1" />
+        <h2 class="titulo">Alfajor Jorgito Negro</h2>
+        <p>Precio: $100-</p>
+        <p>Disponibilidad: En stock</p>
+        <p>Disponibilidad: Sin stock</p>
+        <div>
+          <label for="quantity">Cantidad:</label>
+          <input type="text" id="quantity" class="quantity">
+          <input type="submit" value="Añadir al carrito" id="quantity-btn"> -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul class="media-icons">
+
+      <li>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram iconos fa icon-color"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter fa icon-color"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook fa icon-color"></i></a>
+      </li>
+      <li>
+        <a href="mailto:name1@mail.com,name2@mail.com" target="_blank"><i class="fab fa-telegram fa icon-color"></i></a>
+      </li>
+    </ul>
+    <div class="copyContainer">
+      <p class="copy">© 2021— Kios - Kito</p>
+    </div>
+    <div class="adressContainer">
+      <p class="adress">Av. Jorge Newbery 4020</p>
+    </div>
+  </footer>
+<script src="./assets/js/index.js" type="module"></script>
+</body>
+
+</html>
