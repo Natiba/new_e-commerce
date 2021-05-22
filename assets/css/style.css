@@ -173,18 +173,18 @@ footer ul li  {
     flex-wrap: nowrap;
     align-content: flex-end; */
     padding: 18%;
+  }
    
-}
 
-footer ul {
-    /* display: flex;
+/* footer ul {
+    display: flex;
     align-items: center;
-    flex-flow: row wrap; */
-    /* justify-content: center;
+    flex-flow: row wrap; 
+    justify-content: center;
     align-content: center;
-    align-items: center; */
-    /* margin-left: 60%; */
-}
+    align-items: center; 
+    margin-left: 60%; 
+} */
 
 .icon-color {
   color:rgb(250, 245, 245)
