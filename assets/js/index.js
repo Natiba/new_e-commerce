@@ -4,6 +4,7 @@ const container = document.getElementById('container'); //cambio promo x contain
 const btnChocolate = document.getElementById('chocolate');
 const btnchicle = document.getElementById('chicle');
 const btnSnak = document.getElementById('snack');
+console.log(btnSnak);
 
 btnChocolate.addEventListener('click', () => {
   getProducts('chocolate');

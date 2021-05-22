@@ -58,7 +58,7 @@ const products = [
     {
       id: 16,
       name: 'Lays Clásicas',
-      category: 'snaks',
+      category: 'snacks',
       price: 130,
       stock: 10,
       sale: false,
@@ -67,7 +67,7 @@ const products = [
     {
       id: 17,
       name: 'Lays Jamón',
-      category: 'snaks',
+      category: 'snacks',
       price: 150,
       stock: 10,
       sale: false,
@@ -76,7 +76,7 @@ const products = [
     {
       id: 18,
       name: 'Lays Provoleta',
-      category: 'snaks',
+      category: 'snacks',
       price: 160,
       stock: 10,
       sale: false,
